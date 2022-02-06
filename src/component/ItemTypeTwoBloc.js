@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import { v4 as uuidv4 } from 'uuid';
 import { modifyListAction } from "../actions/ListsAction";
 import { delItemFromTempList, modifyItemInTempList } from "../actions/tempListAction";
@@ -7,7 +7,6 @@ import { delItemFromTempList, modifyItemInTempList } from "../actions/tempListAc
 const ItemTypeTwoBloc = ({ itm,checkbox,dateList,typeOfShop,specialId,allFalse }) => {
     const [itemNumberAbled, setItemNumberAbled] = useState(false);
 
-    const [tempLists] = useSelector(state=>state.tempListReducer)
 
     const dispatch = useDispatch();
 

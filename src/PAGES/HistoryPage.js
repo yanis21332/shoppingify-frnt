@@ -1,11 +1,10 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import BackButton from "../component/BackButton";
-import ItemCat from "../component/itemCat";
 import List from "../component/List";
 import ShoppingList from "../component/ShoppingList";
 
-const HistoryPage = ({canShoppingList, itemsContainerClass,canSeeCancelBloc,setCanSeeCancelBloc,setAllElementsThatWeNeedForACancelFunction,TypeOfShoppingList,setTypeOfShoppingList,elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList,setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList}) => {
+const HistoryPage = ({canShoppingList,canSeeCancelBloc,setCanSeeCancelBloc,setAllElementsThatWeNeedForACancelFunction,TypeOfShoppingList,setTypeOfShoppingList,elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList,setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList}) => {
 
     const allListsBrut = useSelector(state=>state.ListsReducer)
 
@@ -34,14 +33,9 @@ const HistoryPage = ({canShoppingList, itemsContainerClass,canSeeCancelBloc,setC
             allMonths.push({realDate:realDate,yearName:year,monthName:textMonth,mon:month,content:[{...list}]})
         }
     })
-
-    const [randomId,setRandomId] = useState([])
-    const [allCat,setAllCat] = useState([])
-    let newAllCat;
     
     const allCategories = []
     
-    let newAllCategories
     const [realCategories,setRealCategories] = useState([])
     
     const allNutrients = allElementsThatWeNeedForAListContainer.items
@@ -61,7 +55,7 @@ const HistoryPage = ({canShoppingList, itemsContainerClass,canSeeCancelBloc,setC
                 }
             })
             //avec cett ligne on elimine tout les doublons qui se trouve dans cette array
-            newAllCategories = [...new Set(allCategories)];
+            let newAllCategories = [...new Set(allCategories)];
             console.log(allCategories)
             console.log(newAllCategories)
             setRealCategories(newAllCategories)

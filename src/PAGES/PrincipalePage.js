@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import jwt from 'jwt-decode';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import ItemsPage from "./ItemsPage";

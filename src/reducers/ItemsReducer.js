@@ -15,6 +15,8 @@ export const ItemsReducer = (state=[],action) => {
                 console.log(el.specialId + "   et   "+action.payload.item.specialId)
                 if(el.specialId+""!==action.payload.item.specialId+""){
                     return el;
+                }else{
+                    return null;
                 }
             })
         default:

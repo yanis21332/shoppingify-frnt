@@ -38,7 +38,11 @@ export const tempListReducer = (state=[],action) => {
                     }else if(action.payload.type==="less"){
                         if(el.numberOfElements>1){
                             return {categories:el.categories,date:el.date,image:el.image,isChecked:el.isChecked,name:el.name,note:el.note,numberOfElements:el.numberOfElements-1,_id:el._id}
+                        }else{
+                            return null;
                         }
+                    }else{
+                        return null;
                     }
                 }else{
                     return el;

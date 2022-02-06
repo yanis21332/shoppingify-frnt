@@ -23,20 +23,6 @@ const StatsPage = ({ canShoppingList,TypeOfShoppingList,setTypeOfShoppingList,el
         { name: 'Dec', items: 0, pv: 500, amt: 2400 }
 
     ]
-
-    let Jan = [];
-    let Feb = [];
-    let March = [];
-    let April = [];
-    let May = [];
-    let June = [];
-    let July = [];
-    let August = [];
-    let Sept = [];
-    let Oct = [];
-    let Nov = [];
-    let Dec = [];
-
     const AllListsBrut = useSelector(state=>state.ListsReducer)
     const AllItems = []
     const AllCat = []

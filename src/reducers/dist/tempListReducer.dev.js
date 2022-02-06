@@ -76,7 +76,11 @@ var tempListReducer = function tempListReducer() {
                 numberOfElements: el.numberOfElements - 1,
                 _id: el._id
               };
+            } else {
+              return null;
             }
+          } else {
+            return null;
           }
         } else {
           return el;

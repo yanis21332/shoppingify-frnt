@@ -36,6 +36,8 @@ var ItemsReducer = function ItemsReducer() {
 
         if (el.specialId + "" !== action.payload.item.specialId + "") {
           return el;
+        } else {
+          return null;
         }
       });
 

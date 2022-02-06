@@ -1,5 +1,4 @@
-import { DELETE_ITEM_ACTION } from "../actions/ItemsAction";
-import { ADD_LIST_ACTION, CLEAR_ALL, GET_ALL_LISTS, MODIFY_LIST_ACTION, MODIFY_STATUS_OF_LIST_ACTION } from "../actions/ListsAction";
+import { ADD_LIST_ACTION, GET_ALL_LISTS, MODIFY_LIST_ACTION, MODIFY_STATUS_OF_LIST_ACTION } from "../actions/ListsAction";
 
 export const ListsReducer = (state=[],action) => {
     switch (action.type) {
