@@ -1,0 +1,374 @@
+.ShoppingListContainer {
+    background: #fff0de;
+    height: 100%;
+    width: 100%;
+    max-width: 402.25px;
+
+    .ShoppingListTypeTwo {
+        padding: 5px 0 0px 18px;
+        height: 99.2vh;
+        width: 94%;
+        background: #f9fafb;
+        position: relative;
+
+        .TypeTwoOfShoppingList {
+            .intro {
+                h2 {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 30px;
+                }
+            }
+            .inputsOfAddItemForm {
+                height: 52.679vh;
+                .inputsOfAddItem {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 100%;
+                    min-height: 47vh;
+                    .nameInput,
+                    .noteTextarea,
+                    .imageInput,
+                    .categoryInput {
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 10px;
+                        label {
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 17px;
+                            margin-bottom: 4px;
+                            color: #34333a;
+                        }
+                        input,
+                        textarea {
+                            border: 2px solid #bdbdbd;
+                            box-sizing: border-box;
+                            border-radius: 12px;
+                            outline: none;
+                            padding: 10px 14px;
+
+                            resize: vertical;
+                            margin-top: 0px;
+                            margin-bottom: 0px;
+                            height: 75px;
+                            width: 95%;
+                            max-height: 150px;
+                            min-height: 75px;
+
+                            &:focus {
+                                border-color: #f9a109;
+                            }
+                        }
+                    }
+                }
+                .footerOfAddItem {
+                    display: flex;
+                    justify-content: space-around;
+                    position: absolute;
+                    bottom: 16px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 181px;
+                    .cancelButton {
+                        background: transparent;
+                        color: #34333a;
+                    }
+                    .btn {
+                        outline: none;
+                        border: none;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                    .submitInputOfForm {
+                        background: #f9a109;
+                        border-radius: 12px;
+                        color: white;
+                        height: 56.25px;
+                        margin-top: 6px;
+                        width: 80px;
+                    }
+                }
+            }
+        }
+    }
+    .ShoppingList {
+        padding: 42px 36px 0 41px;
+        position: relative;
+        min-height: 94.74vh;
+        height: 100%;
+
+        .firstPart {
+            max-height: 79vh;
+            .AddItemFunc {
+                background: #80485b;
+                border-radius: 24px;
+                color: white;
+                display: flex;
+
+                .winePart {
+                    margin-left: 5px;
+                    img {
+                        position: relative;
+                        bottom: 27px;
+                    }
+                }
+                .funcPart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    width: 56%;
+                    position: relative;
+                    left: 16px;
+
+                    p {
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                    button {
+                        background: #ffffff;
+                        box-shadow: 0px 2px 12px rgb(0 0 0 / 4%);
+                        border-radius: 12px;
+                        outline: none;
+                        border: none;
+                        width: 100%;
+                        max-width: 120px;
+                        height: 40px;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #34333a;
+                    }
+                }
+            }
+            .itemsAded {
+                .titleOfZone {
+                    display: flex;
+                    justify-content: space-between;
+
+                    img {
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .theItems {
+                    max-height: 51vh;
+                    overflow-y: auto;
+                    .itemCatTwo {
+                        margin-bottom: 21px;
+                        .itemOneTypeTwo {
+                            display: flex;
+                            margin-top: 5px;
+                            justify-content: space-between;
+                            margin-bottom: 10px;
+                            align-items: center;
+
+                            p {
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 22px;
+                                color: #000000;
+                            }
+                            .itemNumberParentReallyAbled:hover {
+                                background: #fff;
+                                border-radius: 12px;
+                                display: flex;
+                                justify-content: space-between;
+                                width: 173px;
+                                height: 45px;
+                                padding-right: 7px;
+                                align-items: center;
+
+                                cursor: pointer;
+
+                                .poubellePlace,
+                                .btn {
+                                    display: block;
+                                }
+                                .poubellePlace {
+                                    background: #f9a109;
+                                    border-radius: 12px;
+                                    height: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    width: 36px;
+                                    justify-content: center;
+                                }
+                            }
+                            .itemNumberParentAbled {
+                                display: flex;
+                                justify-content: space-between;
+                                padding-right: 7px;
+                                align-items: center;
+
+                                .poubellePlace,
+                                .btn {
+                                    display: none;
+                                }
+
+                                &:hover {
+                                }
+                            }
+                            .itemNumber {
+                                border: 2px solid #f9a109;
+                                box-sizing: border-box;
+                                border-radius: 24px;
+                                transition: 0.2s;
+
+                                &:hover {
+                                    cursor: pointer;
+                                    background-color: #f9a109;
+                                    p,
+                                    span {
+                                        color: white;
+                                    }
+                                }
+
+                                p,
+                                .pcs {
+                                    font-weight: bold;
+                                    font-size: 12px;
+                                    line-height: 15px;
+                                    color: #f9a10a;
+                                    padding: 4px 10px;
+                                }
+                                .pcs {
+                                    font-weight: 400;
+                                    padding: 0;
+                                }
+                            }
+                        }
+                    }
+
+                    .noItemsZoneParent {
+                        height: 532px;
+                        position: relative;
+
+                        .containerOfNIZP {
+                            height: 100%;
+                            & > p{
+                                font-weight: bold;
+                                font-size: 20px;
+                                line-height: 25px;
+                                position: absolute;
+                                color: #34333A;
+                                transform: translate(-50%,-50%);
+                                left: 50%;
+                                top: 50%;
+                            }
+                            .womenImage{
+                                position: absolute;
+                                bottom: 2px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footerPart {
+        background: #ffffff;
+        height: 87px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        .listCreationForm {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+
+            .inputs {
+                border: 2px solid #f9a109;
+                box-sizing: border-box;
+                border-radius: 12px;
+                padding-left: 25px;
+                width: 76%;
+                height: 63px;
+                display: flex;
+                justify-content: space-between;
+
+                .textInput {
+                    border: 0;
+                    outline: 0;
+                }
+            }
+        }
+    }
+    .TypeFourOfShoppingList {
+        .containerOfTypeFour {
+            .topPartYN {
+                .backButtonParent {
+                    margin-bottom: 24px;
+                    .backButton {
+                    }
+                }
+                .itemImageZone {
+                    margin-bottom: 30px;
+                    img {
+                        border-radius: 25px;
+                        max-width: 290px;
+                    }
+                }
+                .defElem {
+                    margin-bottom: 19px;
+                    .defElemCont {
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 22px;
+
+                        color: #000000;
+                    }
+                    .defElemContPrinc {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 30px;
+
+                        color: #000000;
+                    }
+                    .containerOfNote {
+                        overflow: scroll;
+                    }
+                }
+            }
+            .bottomPart {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-bottom: 25px;
+                width: 100%;
+
+                .inputsZoneYN {
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    button {
+                        border: none;
+                        outline: none;
+                        font-size: 12px;
+                        line-height: 20px;
+                        font-weight: bold;
+                    }
+                    .deleteItemButton {
+                        background-color: transparent;
+                        color: #34333a;
+                    }
+                    .addToListButton {
+                        height: 55px;
+                    }
+                }
+            }
+        }
+    }
+}

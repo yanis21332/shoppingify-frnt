@@ -1,0 +1,323 @@
+@media screen and (max-width: 1210px) {
+    .itemContainerTypeTwo55 .items .frstpz_2 .nutrientToAdd .itemCat .allNutrients {
+        grid-template-columns: repeat(4, 6fr);
+        grid-gap: 10px;
+        display: grid;
+    }
+}
+@media screen and (max-width: 996px) {
+    .itemContainerTypeTwo55 .items .frstpz_2 .nutrientToAdd .itemCat .allNutrients {
+        grid-template-columns: repeat(3, 6fr);
+        grid-gap: 10px;
+        display: grid;
+    }
+    .itemContainerTypeTwo55 .items .frstpz_2 {
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 773px) {
+    .itemContainerTypeTwo55 .items .frstpz_2 .nutrientToAdd .itemCat .allNutrients {
+        grid-template-columns: repeat(2, 6fr);
+        grid-gap: 10px;
+        display: grid;
+    }
+    .items .nutrientToAdd .itemCat .allNutrients .oneNutrient {
+        width: 84%;
+        height: 44px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .items .headPart .titlePage h2 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
+@media screen and (max-width: 672px) {
+    .itemContainerTypeTwo55 .items .frstpz_2 .nutrientToAdd .itemCat .allNutrients {
+        grid-template-columns: repeat(1, 6fr);
+        grid-gap: 10px;
+        display: grid;
+    }
+    .items .nutrientToAdd .itemCat .allNutrients .oneNutrient {
+        width: 89%;
+        height: 44px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .items .headPart .titlePage h2 {
+        display: none;
+    }
+    .items .headPart {
+        display: block;
+
+        .searchFunc {
+            width: 100%;
+            margin-top: 15px;
+        }
+    }
+    .items .headPart .searchFunc .searchItemsInput {
+        display: flex;
+        background: #ffffff;
+        box-shadow: 0px 2px 12px rgb(0 0 0 / 4%);
+        border-radius: 12px;
+        padding: 14.55px 4.59px;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 398px) {
+    .items .nutrientToAdd .itemCat .allNutrients .oneNutrient {
+        width: 75%;
+        height: 44px;
+    }
+}
+//another type of media
+
+@media screen and (max-width: 1378px) {
+    .itemsWithShopppingList {
+        .frstpz_2 {
+            width: 65%;
+            margin-right: 50px;
+        }
+        .nutrientToAdd .itemCat .allNutrients {
+            grid-template-columns: repeat(4, 1fr);
+            display: grid;
+            column-gap: 4px;
+            row-gap: 10px;
+        }
+    }
+}
+@media screen and (max-width: 1350px) {
+    .itemsWithShopppingList .nutrientToAdd .itemCat .allNutrients {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+@media screen and (max-width: 1145px) {
+    .itemsWithShopppingList .headPart .titlePage h2 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .itemsWithShopppingList .nutrientToAdd .itemCat .allNutrients {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        grid-column-gap: 10px;
+        column-gap: 4px;
+        grid-row-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    .itemsWithShopppingList .nutrientToAdd .itemCat .allNutrients {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-column-gap: 4px;
+        column-gap: 40px;
+        row-gap: 10px;
+    }
+}
+@media screen and (max-width: 935px) {
+    .itemsWithShopppingList .nutrientToAdd .itemCat .allNutrients {
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        column-gap: 40px;
+        grid-row-gap: 10px;
+        row-gap: 10px;
+    }
+    .itemsWithShopppingList .nutrientToAdd .itemCat .allNutrients .oneNutrient {
+        background: #ffffff;
+        box-shadow: 0px 2px 12px rgb(0 0 0 / 5%);
+        border-radius: 12px;
+        width: 85%;
+        height: 44px;
+        padding: 3px 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 7px;
+    }
+    .itemsWithShopppingList .headPart .titlePage {
+        margin-right: 7%;
+        display: none;
+    }
+    .itemsWithShopppingList {
+        .searchFunc {
+            width: 100%;
+            margin-top: 14px;
+            .searchItemsInput {
+                display: flex;
+                background: #ffffff;
+                box-shadow: 0px 2px 12px rgb(0 0 0 / 4%);
+                border-radius: 12px;
+                padding: 14.55px 4.59px;
+                align-items: center;
+                width: 100%;
+            }
+        }
+    }
+}
+.itemsWithShopppingList {
+    margin: 0px 0 0 6%;
+    display: flex;
+    width: 95%;
+}
+@media screen and (max-width: 803px) {
+    .ShoppingListContainer .footerPart .listCreationForm .inputs {
+        border: 2px solid #f9a109;
+        box-sizing: border-box;
+        border-radius: 12px;
+        padding-left: 25px;
+        width: 90%;
+        height: 63px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ShoppingListContainer .ShoppingList {
+        padding: 42px 27px 0 27px;
+        position: relative;
+        min-height: 94.74vh;
+        height: 100%;
+    }
+    .ShoppingListContainer {
+        background: #fff0de;
+        height: 100%;
+        min-height: 100vh;
+        width: 100%;
+        max-width: 100%;
+    }
+    .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .winePart {
+        margin-left: 5px;
+        width: 68px;
+        img {
+            position: relative;
+            bottom: 0;
+            transform: scale(0.78);
+        }
+    }
+    .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .funcPart {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 47%;
+        position: relative;
+        left: 16px;
+        p {
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 20px;
+        }
+        .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .funcPart button {
+            background: #ffffff;
+            box-shadow: 0px 2px 12px rgb(0 0 0 / 4%);
+            border-radius: 8 px;
+            outline: none;
+            border: none;
+            width: 100%;
+            max-width: 95px;
+            height: 34px;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 17px;
+            color: #34333a;
+        }
+    }
+}
+
+@media screen and (max-width: 701px) {
+    .HistoryContainer .allWithShoppingList .ShoppingHistory {
+        display: none;
+    }
+    .itemsWithShopppingList .frstpz_2 {
+        display: none;
+    }
+    .itemsWithShopppingList {
+        display: flex;
+        margin: 0;
+        width: 100%;
+    }
+    .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .winePart {
+        margin-left: 5px;
+        margin-right: 36px;
+        .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .winePart img {
+            position: relative;
+            bottom: 27px;
+        }
+    }
+    .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .funcPart {
+        p {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 20px;
+        }
+        button {
+            background: #ffffff;
+            box-shadow: 0px 2px 12px rgb(0 0 0 / 4%);
+            border-radius: 12px;
+            outline: none;
+            border: none;
+            width: 100%;
+            max-width: 135px;
+            height: 45px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            color: #34333a;
+        }
+    }
+    .ShoppingListContainer .ShoppingListTypeTwo {
+        padding: 5px 0 0px 18px;
+        height: 99.2vh;
+        background: #f9fafb;
+        position: relative;
+        width: 96%;
+    }
+}
+@media screen and (max-width: 404px) {
+    .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .funcPart p {
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .funcPart {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 48%;
+        position: relative;
+        left: 16px;
+    }
+    .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .funcPart button {
+        background: #ffffff;
+        box-shadow: 0px 2px 12px rgb(0 0 0 / 4%);
+        border-radius: 9px;
+        outline: none;
+        border: none;
+        width: 100%;
+        max-width: 85px;
+        height: 30px;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 17px;
+        color: #34333a;
+    }
+    .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .winePart img {
+        position: relative;
+        transform: scale(0.8);
+    }
+    .ShoppingListContainer .footerPart .listCreationForm .inputs {
+        border: 2px solid #f9a109;
+        box-sizing: border-box;
+        border-radius: 12px;
+        padding-left: 25px;
+        width: 97%;
+        height: 63px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

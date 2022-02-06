@@ -1,0 +1,310 @@
+.HistoryContainer .allIndepandante .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList {
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  padding: 0 22px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.HistoryContainer .all2251 {
+  display: flex;
+}
+.HistoryContainer .all2251 .ShoppingHistory {
+  width: 75%;
+  margin: 0 22px 0 6%;
+}
+.HistoryContainer .all2251 .ShoppingHistory .principaleTitle h2 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+  color: #34333a;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory {
+  overflow: scroll;
+  max-height: 92vh;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists {
+  margin-bottom: 8vh;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists {
+  margin-top: 12px;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList {
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  padding: 0 22px;
+  margin-bottom: 24px;
+  width: 80%;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .leftText h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements {
+  width: 51%;
+  position: absolute;
+  right: 0;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .creationDate {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #c1c1c4;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .completed {
+  border: 1px solid #56ccf2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 3px 8px;
+  transition: 0.2s;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .completed p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #56ccf2;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .completed:hover {
+  background-color: #56ccf2;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .completed:hover p {
+  color: white;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .canceled {
+  border: 1px solid #eb5757;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 3px 8px;
+  transition: 0.2s;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .canceled p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #eb5757;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .canceled:hover {
+  background-color: #eb5757;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .canceled:hover p {
+  color: white;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .current {
+  border: 1px solid #34d399;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .current p {
+  color: #34d399;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .current:hover {
+  background-color: #34d399;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .current,
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .canceled,
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .completed {
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 3px 8px;
+  transition: 0.2s;
+  background-color: transparent;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .current p,
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .canceled p,
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .completed p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .current:hover p,
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .canceled:hover p,
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .completed:hover p {
+  color: white;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .findOutMoreButton {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .findOutMoreButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.HistoryContainer .contHistoryCont {
+  display: flex;
+  justify-content: space-between;
+}
+.HistoryContainer .contHistoryCont .parentOfAll {
+  padding: 37px 9%;
+}
+.HistoryContainer .contHistoryCont .parentOfAll .itemsInList {
+  overflow-y: scroll;
+  max-height: 79vh;
+}
+.HistoryContainer .contHistoryCont .parentOfAll .itemsInList .containerOfItemsInList {
+  margin-bottom: 6vh;
+}
+.HistoryContainer .contHistoryCont .parentOfAll .itemsInList .containerOfItemsInList .oneCat h3:first-child {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.HistoryContainer .contHistoryCont .parentOfAll .itemsInList .containerOfItemsInList .oneCat .itemsInQuestion {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+  display: grid;
+}
+.HistoryContainer .contHistoryCont .parentOfAll .itemsInList .containerOfItemsInList .oneCat .itemsInQuestion .oneNutrient p:first-child {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.HistoryContainer .contHistoryCont .parentOfAll .itemsInList .containerOfItemsInList .oneCat .itemsInQuestion .oneNutrient .numberOfPcs {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #F9A10A;
+}
+
+@media screen and (max-width: 1350px) {
+  .HistoryContainer .contHistWithShoppingList .parentOfAll .itemsInList .containerOfItemsInList .oneCat .itemsInQuestion {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    display: grid;
+  }
+}
+@media screen and (max-width: 1101px) {
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements {
+    width: 71%;
+    position: absolute;
+    right: 0;
+  }
+
+  .HistoryContainer .contHistWithShoppingList .parentOfAll .itemsInList .containerOfItemsInList .oneCat .itemsInQuestion {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+    display: grid;
+  }
+
+  .HistoryContainer .contHistIndepandante .parentOfAll .itemsInList .containerOfItemsInList .oneCat .itemsInQuestion {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+    display: grid;
+  }
+}
+@media screen and (max-width: 870px) {
+  .HistoryContainer .contHistIndepandante .parentOfAll .itemsInList .containerOfItemsInList .oneCat .itemsInQuestion {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    display: grid;
+  }
+}
+@media screen and (max-width: 707px) {
+  .HistoryContainer .contHistIndepandante .parentOfAll .itemsInList .containerOfItemsInList .oneCat .itemsInQuestion {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 9px;
+    display: grid;
+  }
+}
+@media screen and (max-width: 906px) {
+  .HistoryContainer .allWithShoppingList .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .calendarSVGimage {
+    display: none;
+  }
+  .HistoryContainer .allWithShoppingList .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .creationDate {
+    font-size: 10px;
+  }
+
+  .HistoryContainer .allWithShoppingList .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .current,
+.HistoryContainer .allWithShoppingList .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .canceled,
+.HistoryContainer .allWithShoppingList .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .completed {
+    box-sizing: border-box;
+    transition: 0.2s;
+    background-color: transparent;
+    border: none;
+  }
+  .HistoryContainer .allWithShoppingList .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .current p,
+.HistoryContainer .allWithShoppingList .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .canceled p,
+.HistoryContainer .allWithShoppingList .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .completed p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .HistoryContainer .contHistWithShoppingList .parentOfAll .itemsInList .containerOfItemsInList .oneCat .itemsInQuestion {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 6px;
+    display: grid;
+  }
+}
+@media screen and (max-width: 701px) {
+  .HistoryContainer .contHistWithShoppingList .parentOfAll {
+    padding: 37px 9%;
+    display: none;
+  }
+}
+@media screen and (max-width: 446px) {
+  .HistoryContainer .contHistIndepandante .parentOfAll .itemsInList .containerOfItemsInList .oneCat .itemsInQuestion {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 6px;
+    display: grid;
+  }
+}
+@media screen and (max-width: 473px) {
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .leftText h3 {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer #DateElement {
+    margin-right: 7px;
+  }
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer #DateElement svg {
+    display: none;
+  }
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer #DateElement p {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 15px;
+    color: #C1C1C4;
+  }
+
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent button:nth-child(2) {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+  }
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent button:nth-child(2):hover {
+    background-color: transparent;
+  }
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent button:nth-child(2) p {
+    font-size: 10px;
+  }
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .completed:hover p {
+    color: #56ccf2;
+  }
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent .canceled:hover p {
+    color: #eb5757;
+  }
+  .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList .listcontainer .rightElements .creationDateParent button:nth-child(3) {
+    transform: scale(0.7);
+  }
+}

@@ -1,0 +1,149 @@
+body #root .globalContainer .statsContainer .statsAllWithShoppingList .ShoppingStats .shemaStats .recharts-wrapper{
+    width: 100%;
+    .recharts-surface{
+        width: 100%;
+    }
+}
+.ErrorQlq{
+    color: #ff0000cc;
+    font-size: 0.85em;
+}
+* {
+    font-family: Poppins, "sans-serif";
+}
+p {
+    margin: 0;
+}
+.errorMessage {
+    color: red;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 35px;
+    left: 22px;
+}
+body {
+    background-color: #fafafe;
+    margin: 0;
+    overflow-y: hidden;
+}
+.shoppingifyYellow {
+    color: #f9a109;
+}
+.btn {
+    transition: 0.2s;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+}
+.none {
+    display: none;
+}
+.griser {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #828282;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+.btn2{
+    &:hover{
+        cursor: pointer;
+    }
+}
+.disabled{
+    opacity: 0.7;
+    &:hover{
+        cursor: no-drop;
+    }
+}
+.inbtn{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.btnOchten{
+    transition: 0.2s;
+    &:hover{
+        cursor: pointer;
+        color: #f9a109;
+    }
+}
+.shortLabel{
+    color: #C1C1C4;
+    font-size: 0.7em;
+}
+.MuiSvgIconRoot{
+    width: 22px;
+    transform: rotateY(180deg);
+    fill: #F9A109;
+}
+
+.submitInput,.yellowBeatifulButton {
+    background: #f9a109;
+    border-radius: 12px;
+    color: white;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 87px;
+    height: 61px;
+    border: 0;
+    position: relative;
+    bottom: 1px;
+    left: 1px;
+}
+.disabledButton{
+    opacity: 0.7;
+    &:hover{
+        cursor: no-drop;
+    }
+}
+.dateOfSetsLists{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 9px;
+}
+.theBackButton{
+    border: none;
+    outline: none;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    p{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        
+        color: #F9A109;
+        margin-left: 5px;
+    }
+}
+#DateElement{
+    display: flex;
+    align-items: center;
+    svg:first-child{
+        margin-right: 5px;
+    }
+    p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #C1C1C4;
+    }
+}

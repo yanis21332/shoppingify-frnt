@@ -1,0 +1,128 @@
+.items {
+    margin: 0px 0 0 6%;
+    display: flex;
+
+    .frstpz_2 {
+        width: 75%;
+        margin-right: 50px;
+    }
+    .headPart {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .titlePage {
+            margin-right: 7%;
+            h2 {
+                font-weight: 600;
+                font-size: 26px;
+                line-height: 32px;
+            }
+        }
+        .searchFunc {
+            .searchItemsInput {
+                display: flex;
+                background: #ffffff;
+                box-shadow: 0px 2px 12px rgb(0 0 0 / 4%);
+                border-radius: 12px;
+                padding: 14.55px 4.59px;
+                align-items: center;
+                width: 206px;
+
+                svg {
+                    margin-right: 5px;
+                    margin-left: 7px;
+                }
+
+                input {
+                    border: none;
+                    outline: none;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    .nutrientToAdd {
+        margin-top: 28px;
+        overflow: scroll;
+        min-width: 304px;
+        max-height: 88vh;
+
+        .itemCat {
+            margin-bottom: 51px;
+            p {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                max-width: 155px;
+                overflow: hidden;
+            }
+            .allNutrients {
+                grid-template-columns: repeat(4, 1fr);
+                grid-gap: 10px;
+                display: grid;
+                
+            }
+        }
+        .itemCat:last-child{
+            margin-bottom: 7vh;
+        }
+    }
+}
+.oneNutrient {
+    background: #ffffff;
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 5%);
+    border-radius: 12px;
+    width: 78%;
+    height: 44px;
+    padding: 3px 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+}
+.itemsContainer {
+    overflow-y: hidden;
+    width: 100%;
+}
+.itemContainerTypeTwo55 {
+    overflow-y: hidden;
+    max-height: 100vh;
+    width: 100%;
+
+    .items {
+        margin: 0px 6%;
+
+        .frstpz_2 {
+            width: 100%;
+            margin-right: 50px;
+
+            .nutrientToAdd .itemCat .allNutrients {
+                grid-template-columns: repeat(5, 1fr);
+                grid-gap: 10px;
+                display: grid;
+            }
+        }
+    }
+}
+
+.items .headPart .searchFunc .searchItemsInput input {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    width: 100%;
+}
+.itemsWithShopppingList {
+    .nutrientToAdd .itemCat .allNutrients .oneNutrient {
+        background: #ffffff;
+        box-shadow: 0px 2px 12px rgb(0 0 0 / 5%);
+        border-radius: 12 px;
+        width: 164px;
+        height: 44 px;
+        padding: 3 px 17 px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 7 px;
+    }
+}

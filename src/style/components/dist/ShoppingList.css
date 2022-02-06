@@ -1,0 +1,348 @@
+.ShoppingListContainer {
+  background: #fff0de;
+  height: 100%;
+  width: 100%;
+  max-width: 402.25px;
+}
+.ShoppingListContainer .ShoppingListTypeTwo {
+  padding: 5px 0 0px 18px;
+  height: 99.2vh;
+  width: 94%;
+  background: #f9fafb;
+  position: relative;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .intro h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm {
+  height: 52.679vh;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 47vh;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .nameInput,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .noteTextarea,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .imageInput,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .categoryInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .nameInput label,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .noteTextarea label,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .imageInput label,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .categoryInput label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 4px;
+  color: #34333a;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .nameInput input,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .nameInput textarea,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .noteTextarea input,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .noteTextarea textarea,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .imageInput input,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .imageInput textarea,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .categoryInput input,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .categoryInput textarea {
+  border: 2px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 12px;
+  outline: none;
+  padding: 10px 14px;
+  resize: vertical;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 75px;
+  width: 95%;
+  max-height: 150px;
+  min-height: 75px;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .nameInput input:focus,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .nameInput textarea:focus,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .noteTextarea input:focus,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .noteTextarea textarea:focus,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .imageInput input:focus,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .imageInput textarea:focus,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .categoryInput input:focus,
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .inputsOfAddItem .categoryInput textarea:focus {
+  border-color: #f9a109;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .footerOfAddItem {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 181px;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .footerOfAddItem .cancelButton {
+  background: transparent;
+  color: #34333a;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .footerOfAddItem .btn {
+  outline: none;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.ShoppingListContainer .ShoppingListTypeTwo .TypeTwoOfShoppingList .inputsOfAddItemForm .footerOfAddItem .submitInputOfForm {
+  background: #f9a109;
+  border-radius: 12px;
+  color: white;
+  height: 56.25px;
+  margin-top: 6px;
+  width: 80px;
+}
+.ShoppingListContainer .ShoppingList {
+  padding: 42px 36px 0 41px;
+  position: relative;
+  min-height: 94.74vh;
+  height: 100%;
+}
+.ShoppingListContainer .ShoppingList .firstPart {
+  max-height: 79vh;
+}
+.ShoppingListContainer .ShoppingList .firstPart .AddItemFunc {
+  background: #80485b;
+  border-radius: 24px;
+  color: white;
+  display: flex;
+}
+.ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .winePart {
+  margin-left: 5px;
+}
+.ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .winePart img {
+  position: relative;
+  bottom: 27px;
+}
+.ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .funcPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 56%;
+  position: relative;
+  left: 16px;
+}
+.ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .funcPart p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .funcPart button {
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  width: 100%;
+  max-width: 120px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #34333a;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .titleOfZone {
+  display: flex;
+  justify-content: space-between;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .titleOfZone img:hover {
+  cursor: pointer;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems {
+  max-height: 51vh;
+  overflow-y: auto;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo {
+  margin-bottom: 21px;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumberParentReallyAbled:hover {
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 173px;
+  height: 45px;
+  padding-right: 7px;
+  align-items: center;
+  cursor: pointer;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumberParentReallyAbled:hover .poubellePlace,
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumberParentReallyAbled:hover .btn {
+  display: block;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumberParentReallyAbled:hover .poubellePlace {
+  background: #f9a109;
+  border-radius: 12px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 36px;
+  justify-content: center;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumberParentAbled {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 7px;
+  align-items: center;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumberParentAbled .poubellePlace,
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumberParentAbled .btn {
+  display: none;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumber {
+  border: 2px solid #f9a109;
+  box-sizing: border-box;
+  border-radius: 24px;
+  transition: 0.2s;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumber:hover {
+  cursor: pointer;
+  background-color: #f9a109;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumber:hover p,
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumber:hover span {
+  color: white;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumber p,
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumber .pcs {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #f9a10a;
+  padding: 4px 10px;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .itemCatTwo .itemOneTypeTwo .itemNumber .pcs {
+  font-weight: 400;
+  padding: 0;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .noItemsZoneParent {
+  height: 532px;
+  position: relative;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .noItemsZoneParent .containerOfNIZP {
+  height: 100%;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .noItemsZoneParent .containerOfNIZP > p {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  position: absolute;
+  color: #34333A;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+.ShoppingListContainer .ShoppingList .firstPart .itemsAded .theItems .noItemsZoneParent .containerOfNIZP .womenImage {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ShoppingListContainer .footerPart {
+  background: #ffffff;
+  height: 87px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.ShoppingListContainer .footerPart .listCreationForm {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ShoppingListContainer .footerPart .listCreationForm .inputs {
+  border: 2px solid #f9a109;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding-left: 25px;
+  width: 76%;
+  height: 63px;
+  display: flex;
+  justify-content: space-between;
+}
+.ShoppingListContainer .footerPart .listCreationForm .inputs .textInput {
+  border: 0;
+  outline: 0;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .topPartYN .backButtonParent {
+  margin-bottom: 24px;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .topPartYN .itemImageZone {
+  margin-bottom: 30px;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .topPartYN .itemImageZone img {
+  border-radius: 25px;
+  max-width: 290px;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .topPartYN .defElem {
+  margin-bottom: 19px;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .topPartYN .defElem .defElemCont {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .topPartYN .defElem .defElemContPrinc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .topPartYN .defElem .containerOfNote {
+  overflow: scroll;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .bottomPart {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 25px;
+  width: 100%;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .bottomPart .inputsZoneYN {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .bottomPart .inputsZoneYN button {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .bottomPart .inputsZoneYN .deleteItemButton {
+  background-color: transparent;
+  color: #34333a;
+}
+.ShoppingListContainer .TypeFourOfShoppingList .containerOfTypeFour .bottomPart .inputsZoneYN .addToListButton {
+  height: 55px;
+}
