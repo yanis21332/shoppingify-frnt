@@ -44,7 +44,7 @@ exports.CLEAR_ALL = CLEAR_ALL;
 
 var getLists = function getLists() {
   return function (dispatch) {
-    _axios["default"].get("http://localhost:4000/web/getAllLists/".concat(userId)).then(function (res) {
+    _axios["default"].get("https://shoppingify-back.onrender.com/web/getAllLists/".concat(userId)).then(function (res) {
       if (!res.data.error) {
         dispatch({
           type: GET_ALL_LISTS,
@@ -64,7 +64,7 @@ exports.getLists = getLists;
 var addListAction = function addListAction(data) {
   return function (dispatch) {
     //console("nous fesont nos requêtes")
-    _axios["default"].post("http://localhost:4000/web/createonelist", _objectSpread({}, data, {
+    _axios["default"].post("https://shoppingify-back.onrender.com/web/createonelist", _objectSpread({}, data, {
       userId: userId
     })).then(function (res) {
       if (!res.data.error) {
@@ -94,7 +94,7 @@ var modifyListAction = function modifyListAction(data) {
     };
     console.log(data.theItem);
 
-    _axios["default"].put("http://localhost:4000/web/modifyIsCheckedOfItemsInList", _objectSpread({}, data, {}, additionelData)).then(function (res) {
+    _axios["default"].put("https://shoppingify-back.onrender.com/web/modifyIsCheckedOfItemsInList", _objectSpread({}, data, {}, additionelData)).then(function (res) {
       if (!res.data.error) {
         console.log("normalement tout s'est bien passé !");
         dispatch({
@@ -114,7 +114,7 @@ exports.modifyListAction = modifyListAction;
 
 var modifyStatusOfListAction = function modifyStatusOfListAction(data, setTypeOfShoppingList) {
   return function (dispatch) {
-    _axios["default"].post("http://localhost:4000/web/modifyOneList", data).then(function (res) {
+    _axios["default"].post("https://shoppingify-back.onrender.com/web/modifyOneList", data).then(function (res) {
       if (!res.data.error) {
         dispatch({
           type: MODIFY_STATUS_OF_LIST_ACTION,

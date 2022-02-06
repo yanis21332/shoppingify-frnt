@@ -21,7 +21,7 @@ export const DELETE_ITEM_ACTION = "DELETE_ITEM_ACTION"
 
 export const getItems = () => {
     return dispatch => {
-        return axios.get(`http://localhost:4000/web/getAllItems/${userId}`).then(res=>{
+        return axios.get(`https://shoppingify-back.onrender.com/web/getAllItems/${userId}`).then(res=>{
             dispatch({type: GET_ITEMS_ACTION, payload:res.data.data})
         }).catch(err=>{
             console.error(err)
@@ -32,7 +32,7 @@ export const getItems = () => {
 
 export const addItem = (data,setSubError) => {
     return dispatch => {
-        return axios.put("http://localhost:4000/web/additem",{...data,userId:userId}).then(res=>{
+        return axios.put("https://shoppingify-back.onrender.com/web/additem",{...data,userId:userId}).then(res=>{
             if(!res.data.error){
                 setSubError("")
                 dispatch({type:ADD_ITEM_ACTION, payload: data})
@@ -48,7 +48,7 @@ export const addItem = (data,setSubError) => {
 }
 export const deleteItem = (data) => {
     return dispatch => {
-        return axios.put("http://localhost:4000/web/deleteOneItem",{...data}).then(res=>{
+        return axios.put("https://shoppingify-back.onrender.com/web/deleteOneItem",{...data}).then(res=>{
             if(!res.data.error){
                 console.log(res.data)
                 dispatch({type:DELETE_ITEM_ACTION,payload:res.data})

@@ -40,7 +40,7 @@ exports.DELETE_ITEM_ACTION = DELETE_ITEM_ACTION;
 
 var getItems = function getItems() {
   return function (dispatch) {
-    return _axios["default"].get("http://localhost:4000/web/getAllItems/".concat(userId)).then(function (res) {
+    return _axios["default"].get("https://shoppingify-back.onrender.com/web/getAllItems/".concat(userId)).then(function (res) {
       dispatch({
         type: GET_ITEMS_ACTION,
         payload: res.data.data
@@ -56,7 +56,7 @@ exports.getItems = getItems;
 
 var addItem = function addItem(data, setSubError) {
   return function (dispatch) {
-    return _axios["default"].put("http://localhost:4000/web/additem", _objectSpread({}, data, {
+    return _axios["default"].put("https://shoppingify-back.onrender.com/web/additem", _objectSpread({}, data, {
       userId: userId
     })).then(function (res) {
       if (!res.data.error) {
@@ -80,7 +80,7 @@ exports.addItem = addItem;
 
 var deleteItem = function deleteItem(data) {
   return function (dispatch) {
-    return _axios["default"].put("http://localhost:4000/web/deleteOneItem", _objectSpread({}, data)).then(function (res) {
+    return _axios["default"].put("https://shoppingify-back.onrender.com/web/deleteOneItem", _objectSpread({}, data)).then(function (res) {
       if (!res.data.error) {
         console.log(res.data);
         dispatch({

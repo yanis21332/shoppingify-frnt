@@ -32,7 +32,7 @@ const AuthPage = ({ connexionType }) => {
             emailOrPseudo: e.target[0].value,
             password: e.target[1].value
         }
-        axios.post("http://localhost:4000/auth/login",data).then(res=>{
+        axios.post("https://shoppingify-back.onrender.com/auth/login",data).then(res=>{
             if(!res.data.error){
                 //console("pas d'erreur")
                 setError(null)
@@ -56,7 +56,7 @@ const AuthPage = ({ connexionType }) => {
             password: e.target[2].value,
             pseudo: e.target[1].value
         }
-        axios.post("http://localhost:4000/auth/createuser",data).then(res=>{
+        axios.post("https://shoppingify-back.onrender.com/auth/createuser",data).then(res=>{
             if(!res.data.error){
                 setError(null)
                 window.location.href = "/signin"
