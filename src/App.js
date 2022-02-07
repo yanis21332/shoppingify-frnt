@@ -8,10 +8,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path = "/signin"  >
+        <Route path = "/signin" exact >
           <AuthPage connexionType = "login"/>
         </Route>
-        <Route path = "/signup" >
+        <Route path = "/signup" exact >
           <AuthPage connexionType = "signup"/>
         </Route>
         <Route path = "/">
