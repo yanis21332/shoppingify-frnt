@@ -286,6 +286,16 @@
     width: 96%;
   }
 }
+@media screen and (max-width: 500px) {
+  .itemContainerTypeTwo55 .items {
+    margin: 0;
+  }
+  .itemContainerTypeTwo55 .items .frstpz_2 {
+    width: 100%;
+    margin: 0;
+    padding: 0 15px;
+  }
+}
 @media screen and (max-width: 404px) {
   .ShoppingListContainer .ShoppingList .firstPart .AddItemFunc .funcPart p {
     font-weight: bold;
