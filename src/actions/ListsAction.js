@@ -25,7 +25,7 @@ export const CLEAR_ALL = "CLEAR_ALL"
 
 export const getLists = () => {
     return dispatch => {
-        axios.get(`https://shoppingify-back.onrender.com/web/getAllLists/${userId}`).then(res=>{
+        axios.get(`https://back-shoppingify-younow.herokuapp.com/web/getAllLists/${userId}`).then(res=>{
             if(!res.data.error){
                 dispatch({type:GET_ALL_LISTS,payload:res.data.data})
             }else{
@@ -39,7 +39,7 @@ export const getLists = () => {
 export const addListAction = (data) => {
     return dispatch=>{
         //console("nous fesont nos requêtes")
-        axios.post("https://shoppingify-back.onrender.com/web/createonelist",{...data,userId:userId}).then(res=>{
+        axios.post("https://back-shoppingify-younow.herokuapp.com/web/createonelist",{...data,userId:userId}).then(res=>{
             if(!res.data.error){
                 //console("y'a pas d'erreur tout se passe a merveille")
                 //console(res.data)
@@ -60,7 +60,7 @@ export const modifyListAction = data => {
             itemImported: data.theItem
         }
         console.log(data.theItem)
-        axios.put("https://shoppingify-back.onrender.com/web/modifyIsCheckedOfItemsInList",{...data,...additionelData}).then(res=>{
+        axios.put("https://back-shoppingify-younow.herokuapp.com/web/modifyIsCheckedOfItemsInList",{...data,...additionelData}).then(res=>{
             if(!res.data.error){
                 console.log("normalement tout s'est bien passé !")
                 dispatch({type:MODIFY_LIST_ACTION,payload:data})
@@ -75,7 +75,7 @@ export const modifyListAction = data => {
 }
 export const modifyStatusOfListAction = (data,setTypeOfShoppingList) => {
     return dispatch => {
-        axios.post("https://shoppingify-back.onrender.com/web/modifyOneList",data).then(res=>{
+        axios.post("https://back-shoppingify-younow.herokuapp.com/web/modifyOneList",data).then(res=>{
             if(!res.data.error){        
                 dispatch({type:MODIFY_STATUS_OF_LIST_ACTION,payload:data})
                 setTypeOfShoppingList("TypeOneOfShoppingList")
