@@ -3,7 +3,7 @@ import moreIcon from '../import/more.svg';
 import { useDispatch } from "react-redux";
 import { addItemInTempList } from "../actions/tempListAction";
 
-const ItemCat = ({ categories, nutrients,setTypeOfShoppingList,setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList,specialItemIdYN }) => {
+const ItemCat = ({ categories, setCanShoppingList, nutrients,setTypeOfShoppingList,setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList,specialItemIdYN }) => {
     
     const dispatch = useDispatch();
 
@@ -19,7 +19,7 @@ const ItemCat = ({ categories, nutrients,setTypeOfShoppingList,setElementsThatWe
                 <div className="allNutrients">
                     {nutrients.map((nut, key) => {
                         return <div key={key} className="oneNutrient">
-                            <p onClick={()=>{setTypeOfShoppingList("TypeFourOfShoppingList");setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList({...nut,specialItemIdYN:specialItemIdYN})}} className="btnOchten">{nut.name}</p>
+                            <p onClick={()=>{setCanShoppingList(true);setTypeOfShoppingList("TypeFourOfShoppingList");setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList({...nut,specialItemIdYN:specialItemIdYN})}} className="btnOchten">{nut.name}</p>
                             <img onClick={()=>onClickInMoreIcon(nut)} className="btn" alt="more" src={moreIcon} />
                         </div>
                     })}

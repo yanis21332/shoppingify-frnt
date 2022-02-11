@@ -3,7 +3,7 @@ import ShoppingList from "./ShoppingList";
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 
-const Items = ({ canShoppingList, itemsContainerClass,canSeeCancelBloc,setCanSeeCancelBloc,setAllElementsThatWeNeedForACancelFunction,TypeOfShoppingList,setTypeOfShoppingList,elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList,setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList }) => {
+const Items = ({ canShoppingList, setCanShoppingList, itemsContainerClass,canSeeCancelBloc,setCanSeeCancelBloc,setAllElementsThatWeNeedForACancelFunction,TypeOfShoppingList,setTypeOfShoppingList,elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList,setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList }) => {
 
     const generateHexString = (length) => {
         let ret = "";
@@ -109,7 +109,7 @@ const Items = ({ canShoppingList, itemsContainerClass,canSeeCancelBloc,setCanSee
                     </div>
                     <div className="nutrientToAdd">
                         {realNewAllCategories.map(element=>{
-                            return <ItemCat specialItemIdYN = {specialItemIdYN} setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList={setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList} setTypeOfShoppingList={setTypeOfShoppingList} categories={element.categories} nutrients={element.content} />
+                            return <ItemCat setCanShoppingList = {setCanShoppingList} specialItemIdYN = {specialItemIdYN} setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList={setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList} setTypeOfShoppingList={setTypeOfShoppingList} categories={element.categories} nutrients={element.content} />
                         })}
                     </div>
                 </div>

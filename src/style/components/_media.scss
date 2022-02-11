@@ -321,6 +321,23 @@
         justify-content: space-between;
     }
 }
+@media screen and (max-width: 375px){
+    .submitInput, .yellowBeatifulButton {
+        background: #f9a109;
+        border-radius: 12px;
+        color: white;
+        outline: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        width: 82px;
+        height: 61px;
+        border: 0;
+        position: absolute;
+        bottom: 1px;
+        right: 2%;
+    }
+}
 @media screen and (max-width: 347px){
     #womenWithCourses{
         transform: scale(0.84);
