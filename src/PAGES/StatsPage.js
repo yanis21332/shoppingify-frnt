@@ -87,7 +87,10 @@ const StatsPage = ({ canShoppingList,TypeOfShoppingList,setTypeOfShoppingList,el
 
     return (
         <div className="statsContainer" style={{ width: "100%" }} >
-            <div style={{ display: "flex" }} className={`statsAll ${canShoppingList ? "statsAllWithShoppingList" : "statsAllIndepandant"}`}>
+            {realCountsItems.length===0?
+                <div className="NoStatsToSHow">
+                    <h3>No statistics to show !</h3>
+                </div>:<div style={{ display: "flex" }} className={`statsAll ${canShoppingList ? "statsAllWithShoppingList" : "statsAllIndepandant"}`}>
                 <div className="ShoppingStats">
                     <div className="statistics">
                         <div className="firstInstallment installment">
@@ -133,7 +136,7 @@ const StatsPage = ({ canShoppingList,TypeOfShoppingList,setTypeOfShoppingList,el
                     </div>
                 </div>
                 {canShoppingList && <ShoppingList elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList = {elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList} setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList = {setElementsThatWeNeedIfWeUseTheTypeFourOfShoppingList} TypeOfShoppingList = {TypeOfShoppingList} setTypeOfShoppingList = {setTypeOfShoppingList} />}
-            </div>
+            </div>}
         </div>
     )
 }

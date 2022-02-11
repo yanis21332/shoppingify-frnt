@@ -75,7 +75,10 @@ const HistoryPage = ({canShoppingList,canSeeCancelBloc,setCanSeeCancelBloc,setAl
                         <div className = "onSetsOfLists">
                          
                             <div className = "allLists">
-                            
+                                {allMonths.length===0&&
+                                    <div className="noHistoryToShow">
+                                        <h3>No history to show !</h3>
+                                    </div>}
                                 {allMonths.sort((a,b)=>b.mon-a.mon).map((mont,keyOne)=>{
                                     return (
                                         <Fragment key={keyOne}>

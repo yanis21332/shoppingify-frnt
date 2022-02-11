@@ -1,3 +1,4 @@
+
 .HistoryContainer {
     .allIndepandante {
         .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList {
@@ -13,7 +14,7 @@
         display: flex;
 
         .ShoppingHistory {
-            width: 75%;
+            width: 92%;
             margin: 0 22px 0 6%;
 
             .principaleTitle {
@@ -167,10 +168,10 @@
     
     .contHistoryCont{
         display: flex;
-        justify-content: space-between;
 
         .parentOfAll{
             padding: 37px 9%;
+            width: 100%;
 
             .itemsInList{
                 overflow-y: scroll;

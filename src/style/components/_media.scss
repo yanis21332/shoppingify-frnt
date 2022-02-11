@@ -321,3 +321,24 @@
         justify-content: space-between;
     }
 }
+@media screen and (max-width: 347px){
+    #womenWithCourses{
+        transform: scale(0.84);
+    }
+}
+@media screen and (max-width: 349px){
+    .items .nutrientToAdd .itemCat .allNutrients .oneNutrient {
+        width: 58%;
+        height: 44px;
+    }
+}
+@media screen and (max-width:300px){
+    .HistoryContainer .all2251 .ShoppingHistory .listsHistory .onSetsOfLists .allLists .oneList {
+        background: #ffffff;
+        box-shadow: 0px 2px 12px rgb(0 0 0 / 5%);
+        border-radius: 12px;
+        padding: 0 13px;
+        margin-bottom: 24px;
+        width: 80%;
+    }
+}

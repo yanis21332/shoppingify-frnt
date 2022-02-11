@@ -246,7 +246,6 @@
 
                     .noItemsZoneParent {
                         height: 532px;
-                        position: relative;
 
                         .containerOfNIZP {
                             height: 100%;
@@ -262,7 +261,7 @@
                             }
                             .womenImage{
                                 position: absolute;
-                                bottom: 2px;
+                                bottom: 80px;
                                 left: 50%;
                                 transform: translateX(-50%);
                             }

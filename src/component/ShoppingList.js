@@ -237,7 +237,7 @@ const ShoppingList = ({setCanSeeCancelBloc,setAllElementsThatWeNeedForACancelFun
                                             <div className="containerOfNIZP">
                                                 <p>No items</p>
                                                 <div className="womenImage">
-                                                    <img alt = "women with courses" src={WomenSvg} />
+                                                    <img id="womenWithCourses" alt = "women with courses" src={WomenSvg} />
                                                 </div>
                                             </div>
                                         </div>}
