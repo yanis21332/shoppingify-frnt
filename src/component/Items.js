@@ -113,7 +113,7 @@ const Items = ({ canShoppingList, setCanShoppingList, itemsContainerClass,canSee
                         })}
                     </div>
                 </div>
-                {canShoppingList && <ShoppingList elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList = {elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList} TypeOfShoppingList={TypeOfShoppingList} setTypeOfShoppingList={setTypeOfShoppingList} setAllElementsThatWeNeedForACancelFunction = {setAllElementsThatWeNeedForACancelFunction} canSeeCancelBloc ={canSeeCancelBloc} setCanSeeCancelBloc = {setCanSeeCancelBloc} />}
+                {canShoppingList && <ShoppingList setCanShoppingList = {setCanShoppingList} elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList = {elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList} TypeOfShoppingList={TypeOfShoppingList} setTypeOfShoppingList={setTypeOfShoppingList} setAllElementsThatWeNeedForACancelFunction = {setAllElementsThatWeNeedForACancelFunction} canSeeCancelBloc ={canSeeCancelBloc} setCanSeeCancelBloc = {setCanSeeCancelBloc} />}
             </div>
         </div>
     )

@@ -9,7 +9,7 @@ import { addItemInTempList, clear, delItemFromTempList } from "../actions/tempLi
 import BackButton from "./BackButton";
 import WomenSvg from '../import/WomenItem.svg';
 
-const ShoppingList = ({setCanSeeCancelBloc,setAllElementsThatWeNeedForACancelFunction,TypeOfShoppingList,setTypeOfShoppingList,elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList}) => {
+const ShoppingList = ({setCanShoppingList,setCanSeeCancelBloc,setAllElementsThatWeNeedForACancelFunction,TypeOfShoppingList,setTypeOfShoppingList,elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList}) => {
     //user id getage
 
     let cooks = document.cookie.split(";")
@@ -351,7 +351,7 @@ const ShoppingList = ({setCanSeeCancelBloc,setAllElementsThatWeNeedForACancelFun
                                 <div className="topPartYN">
                                     <div className="backButtonParent">
                                         <div className="backButton">
-                                            <BackButton setTypeOfHistoryPage = {undefined} setTypeOfShoppingList = {setTypeOfShoppingList} />
+                                            <BackButton setTypeOfHistoryPage = {undefined} setTypeOfShoppingList = {setTypeOfShoppingList} setCanShoppingList = {setCanShoppingList} />
                                         </div>
                                     </div>
                                     {elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList.image!==""&&elementsThatWeNeedIfWeUseTheTypeFourOfShoppingList.image!==null?
